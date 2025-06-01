@@ -1,0 +1,124 @@
+.nav-logo{
+    height: 2rem;
+    width: 2rem;
+}
+
+.bottom{
+    /* height:50%; */
+    width: 100%;
+    position: fixed;
+    margin-top: 40%;
+    bottom: 0;         /* Position it at the bottom */
+    left: 0; 
+    padding-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+  
+}
+
+    
+
+.entry-field{
+    width: 70%;
+    height: 4rem;
+    border-radius: 2rem;
+    text-align:right;
+    padding-right: 1%;
+}
+
+
+
+.btn{
+    height: 3rem;
+    width: 6rem;
+    border-radius: 1rem;
+}
+
+.chat-history{
+    /* padding-top:4%; */
+    padding: 4%;
+    /* background-color: chocolate; */
+}
+
+.message-content{
+    /* background-color: aquamarine; */
+    overflow-y: auto;
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 4rem;
+    text-align: justify;
+}
+
+.chatbot-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.chatbot-logo{
+    padding: 20px;
+    background-color: pink;
+    height: 10%;
+    border-radius: 2rem 0rem 0rem 2rem;
+}
+
+.chatbot-response{
+    max-width: 65%;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 0rem 2rem 2rem 2rem;
+    margin-left: -20px;
+}
+
+.newClass2{
+    max-width: 65%;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 0rem 2rem 2rem 2rem;
+    margin-left: -20px;
+}
+
+.user-container{
+    justify-content: right;
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.user-logo{
+    padding: 20px;
+    background-color: rgb(175, 246, 203);
+    height: 10%;
+    border-radius: 0rem 2rem 2rem 0rem;
+}
+
+.user-response{
+    max-width: 65%;
+    padding: 20px;
+    background-color: rgb(175, 246, 203);;
+    border-radius: 2rem 0rem 2rem 2rem;
+    margin-right: -10px;
+}
+
+.info-btn{
+    max-width: 60px;
+    background-color: aquamarine;
+    border-radius: 20%
+}
+
+.NewClass{
+    max-width: 65%;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 0rem 2rem 2rem 2rem;
+    margin-left: -20px;
+}
+
+.NewClass2{
+    max-width: 65%;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 0rem 2rem 2rem 2rem;
+    margin-left: -20px;
+}

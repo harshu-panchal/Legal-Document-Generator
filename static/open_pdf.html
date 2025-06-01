@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        iframe {
+            width: 1400px;
+            height: 620px;
+            border: 1px solid #ccc;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <iframe class="pdf-doc-name" src=""></iframe>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const name = urlParams.get('pdfname');
+        const pdfName = name.slice(0, -4) + "pdf"
+        let addDocName = document.querySelector('.pdf-doc-name')
+        addDocName.src = `/static/updated pdf/${pdfName}`
+
+    </script>
+
+
+
+</body>
+
+</html>
