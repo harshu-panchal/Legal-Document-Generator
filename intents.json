@@ -1,0 +1,871 @@
+{
+  "intents": [
+    {
+      "tag": "wikipedia",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        "wikipedia"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "bus undertaking",
+      "patterns": [
+        "Bus undertaking",
+        "bus undertaking affidavit",
+        "bus affidavit"
+      ],
+      "responses": [
+        "Bus Undertaking"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "family court",
+      "patterns": [
+        "family court petition",
+        "THE FAMILY COURT AT MUMBAI PETITION",
+        "divorce petition",
+        "divorce document"
+      ],
+      "responses": [
+        "family court"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "rent agreement",
+      "patterns": [
+        "rent paper agreement",
+        "rent agreement"
+      ],
+      "responses": [
+        "rent agreement"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "partnership deed",
+      "patterns": [
+        "partnership deed",
+        "partnership deed affidavit",
+        "partnership affidavit"
+      ],
+      "responses": [
+        "Partnership deed"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hii",
+        "hiii",
+        "Hi there",
+        "How you",
+        "anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "About",
+      "patterns": [
+        "what is your name",
+        "who are you",
+        "about yourself",
+        "what you can do",
+        "introduction",
+        "introduce yourself"
+      ],
+      "responses": [
+        "Hey there!, My name is AI_Attorney, I am an AI chatbot specially built to generate legal documents and to talk generally."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "complement",
+      "patterns": [
+        "good",
+        "awesome",
+        "nice",
+        "great",
+        "good job",
+        "amazing",
+        "outstanding"
+      ],
+      "responses": [
+        "thank you",
+        "I really appreciate that!",
+        "It means a lot to me"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thankyou",
+        "thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "My pleasure",
+        "You're Welcome"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": [
+        "What your hobbies?",
+        "have any hobbies?",
+        "your hobbies",
+        "about your interests"
+      ],
+      "responses": [
+        "As an AI, I don't have hobbies like humans, but I enjoy helping and learning from users like you!",
+        "I'm here to assist and chat with you, so feel free to ask me anything!",
+        "My main focus is providing useful information and engaging in conversation with you."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "favorite music genre?",
+        "a song recommendation",
+        "recommend me a song",
+        "music",
+        "favorite artist?"
+      ],
+      "responses": [
+        "As an AI, I don't have personal preferences, but I love all kinds of music!",
+        "Here's a great song recommendation: 'Shape of You' by Ed Sheeran.",
+        "I don't have a favorite artist, but I can suggest music based on your taste."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "movies",
+      "patterns": [
+        "movie to watch?",
+        "Any movie recommendations?",
+        "favorite movie",
+        "recommend me a movie"
+      ],
+      "responses": [
+        "For action fans, I recommend 'The Dark Knight'.",
+        "If you enjoy comedy, 'The Hangover' is a hilarious movie to watch.",
+        "My favorite movie is 'The Shawshank Redemption', it's a classic!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "informal_question",
+      "patterns": [
+        "What's up?",
+        "How's your day?",
+        "What's new?",
+        "Got any plans for the weekend?",
+        "a joke !"
+      ],
+      "responses": [
+        "Not much, just here to chat with you.",
+        "My day is going well. How about yours?",
+        "Nothing much is new. What about you?",
+        "I'm an AI, so I don't have weekend plans, but I'm always here to chat!",
+        "Sure, here's a joke: Why don't scientists trust atoms? Because they make up everything!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "formal_question",
+      "patterns": [
+        "Could you please provide more information?",
+        "May I ask a question?",
+        "I would like to know about the pricing",
+        "Could you elaborate on that?"
+      ],
+      "responses": [
+        "Certainly! I'd be happy to provide more information.",
+        "Of course! Feel free to ask your question.",
+        "Sure, let me tell you about our pricing.",
+        "Absolutely! I'll be happy to elaborate on that topic."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "I feel demotivated.",
+        "stay motivated?",
+        "I need motivation.",
+        "Feeling low, any motivational words?"
+      ],
+      "responses": [
+        "Remember that every great journey starts with a small step. Keep moving forward!",
+        "Challenges are what make life interesting. Embrace them and stay motivated!",
+        "Believe in yourself, for you are capable of achieving incredible things!",
+        "Your dreams are within reach. Stay focused and motivated to turn them into reality.",
+        "Don't be discouraged by setbacks. They are stepping stones to success. Keep going!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "team_building",
+      "patterns": [
+        "build a strong team?",
+        "fostering teamwork?",
+        "successful team?"
+      ],
+      "responses": [
+        "Building trust among team members is crucial for a strong and united team.",
+        "Encourage open communication and active listening within your team.",
+        "Recognize and appreciate the unique strengths and contributions of each team member.",
+        "Set clear goals and ensure everyone understands their role in achieving them.",
+        "Plan team-building activities to promote bonding and camaraderie among team members."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "supporting_others",
+      "patterns": [
+        "support, encourage others?",
+        "uplift someone's spirits?",
+        "being a supportive friend?"
+      ],
+      "responses": [
+        "Be a good listener and offer your empathy and understanding.",
+        "Provide words of encouragement and remind them of their strengths.",
+        "Offer a helping hand and let them know you are there for them.",
+        "Celebrate their successes and support them during challenging times.",
+        "Show kindness and spread positivity to make a difference in someone's life."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "overcoming_adversity",
+      "patterns": [
+        "stay strong during tough times?",
+        "Dealing adversity, any advice?",
+        "overcoming challenges?"
+      ],
+      "responses": [
+        "Remember that challenges are opportunities for growth and resilience.",
+        "Take one step at a time and focus on the solutions rather than the problems.",
+        "Seek support from friends, family, or professionals if needed.",
+        "Maintain a positive outlook and keep reminding yourself of your strengths.",
+        "Believe in your ability to overcome obstacles; you are stronger than you think!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "a joke",
+        "Do you know any jokes?",
+        "Joke please",
+        "Make me laugh"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "What did one ocean say to the other ocean? Nothing, they just waved!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "compliments",
+      "patterns": [
+        "You're awesome",
+        "Great job",
+        "I appreciate you",
+        "You're the best"
+      ],
+      "responses": [
+        "Thank you! I'm here to assist you whenever you need.",
+        "You're too kind! It's my pleasure to help you out.",
+        "I'm glad to be of service. Let me know if there's anything else I can do for you."
+      ]
+    },
+    {
+      "tag": "gaming",
+      "patterns": [
+        "Do you play video games?",
+        "Recommend a game",
+        "What game should I play?",
+        "Gaming suggestions"
+      ],
+      "responses": [
+        "I'm not capable of playing video games!",
+        "Absolutely! What type of game are you interested in?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "tech",
+      "patterns": [
+        "about latest technology",
+        "What's new in tech?",
+        "Tech news",
+        "Technology updates"
+      ],
+      "responses": [
+        "There are always exciting developments happening in the world of technology! Are you interested in a specific area like AI, smartphones, or space tech?",
+        "Technology is constantly evolving! Is there a particular topic you'd like to know more about?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "business",
+      "patterns": [
+        "business trends",
+        "Business news",
+        "Latest business updates",
+        "Business articles"
+      ],
+      "responses": [
+        "Business is a dynamic field with constant changes! Are you interested in startups, finance, or entrepreneurship?",
+        "There's always something happening in the business world! Is there a specific industry or company you're curious about?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "restaurant",
+        "What should I cook today?",
+        "Food suggestions",
+        "Favorite cuisine"
+      ],
+      "responses": [
+        "That depends on your taste! Are you in the mood for something specific like Italian, Chinese, or Mexican?",
+        "There's so much delicious food out there! What type of cuisine are you craving?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "sports news",
+        "Latest sports updates",
+        "Sports articles",
+        "Favorite sports team"
+      ],
+      "responses": [
+        "Sports fans are always passionate about their teams! Which sport are you interested in? Football, basketball, soccer, or something else?",
+        "Sports news is constantly evolving! Is there a particular league or event you're following?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "pets",
+      "patterns": [
+        "Do you have any pets?",
+        "pets",
+        "Pet care tips",
+        "Favorite pet"
+      ],
+      "responses": [
+        "As a bot, I don't have pets, but I can provide information and tips on pet care if you're interested!",
+        "Pets bring so much joy to our lives! Is there a specific type of pet you'd like to learn more about?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "What's the latest in technology?",
+        "Tell me about new gadgets",
+        "Tech updates",
+        "Cutting-edge technology"
+      ],
+      "responses": [
+        "Technology is advancing rapidly! Is there a specific area like AI, robotics, or renewable energy you're interested in?",
+        "There are always exciting innovations happening in the tech world! Is there a particular topic you'd like to explore?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "science",
+      "patterns": [
+        "science news",
+        "Latest scientific discoveries",
+        "Science articles",
+        "Favorite branch of science"
+      ],
+      "responses": [
+        "Science is constantly uncovering new mysteries of the universe! Is there a specific field like biology, physics, or astronomy you're interested in?",
+        "There's so much fascinating research happening in the world of science! Is there a particular topic you'd like to learn more about?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "books",
+      "patterns": [
+        "Recommend a book",
+        "book",
+        "What should I read next?",
+        "Book suggestions",
+        "Favorite book genre"
+      ],
+      "responses": [
+        "Books open up new worlds! Do you prefer fiction, non-fiction, mystery, or something else?",
+        "There are so many great books out there! What genre are you interested in exploring?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "travel",
+      "patterns": [
+        "travel destinations",
+        "Travel recommendations",
+        "Best places visit",
+        "vacation spot"
+      ],
+      "responses": [
+        "Traveling is an adventure! Are you interested in beach destinations, historical sites, or bustling cities?",
+        "There's a whole world waiting to be explored! What type of travel experience are you looking for?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": [
+        "Health tips",
+        "Wellness advice",
+        "Healthy living suggestions",
+        "How to stay fit"
+      ],
+      "responses": [
+        "Taking care of your health is important! Are you interested in fitness tips, nutrition advice, or mental wellness strategies?",
+        "Your health is your wealth! Is there a specific aspect of health you'd like to focus on?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "educational resources",
+        "Learning tips",
+        "Study advice",
+        "Favorite subject"
+      ],
+      "responses": [
+        "Education is the key to success! Are you interested in online courses, academic resources, or study techniques?",
+        "Learning is a lifelong journey! Is there a particular subject or skill you're passionate about?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "history",
+      "patterns": [
+        "historical events",
+        "History facts",
+        "Famous historical figures",
+        "Favorite time period"
+      ],
+      "responses": [
+        "History offers valuable lessons from the past! Is there a specific era, civilization, or historical figure you'd like to learn more about?",
+        "The past is full of fascinating stories! Is there a particular historical event or period that interests you?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "What's the latest in technology?",
+        "new gadgets",
+        "Tech updates",
+        "Cutting-edge technology"
+      ],
+      "responses": [
+        "Technology is advancing rapidly! Is there a specific area like AI, robotics, or renewable energy you're interested in?",
+        "There are always exciting innovations happening in the tech world! Is there a particular topic you'd like to explore?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "coding",
+      "patterns": [
+        "coding",
+        "Programming languages",
+        "Coding tips",
+        "learn to code"
+      ],
+      "responses": [
+        "Coding opens up endless possibilities! Are you interested in web development, app development, data science, or something else?",
+        "Learning to code is a valuable skill! Is there a specific programming language or project you're curious about?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "languages",
+      "patterns": [
+        "learn a new language",
+        "Language learning tips",
+        "Best way to learn a language",
+        "Favorite foreign language"
+      ],
+      "responses": [
+        "Learning a new language is a rewarding journey! Are you interested in language apps, online courses, or immersion programs?",
+        "Speaking multiple languages opens doors to new cultures and opportunities! Is there a specific language you're interested in mastering?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "self-improvement",
+      "patterns": [
+        "Self-improvement tips",
+        "Personal development advice",
+        "How to be more productive",
+        "Goal-setting strategies"
+      ],
+      "responses": [
+        "Personal growth is a lifelong journey! Are you interested in productivity hacks, mindset shifts, or habit-building techniques?",
+        "Investing in yourself is the best investment you can make! Is there a specific area of self-improvement you'd like to focus on?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "inspiration",
+      "patterns": [
+        "Inspiring quotes",
+        "Motivational stories",
+        "Daily inspiration",
+        "How to stay motivated"
+      ],
+      "responses": [
+        "Inspiration fuels progress! Is there a particular goal or dream you're working towards?",
+        "Finding inspiration in everyday moments can lead to extraordinary achievements! What inspires you to keep going?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "art",
+      "patterns": [
+        "art",
+        "Artistic inspiration",
+        "Art recommendations",
+        "Favorite artist"
+      ],
+      "responses": [
+        "Art is a reflection of the soul! Are you interested in painting, sculpture, photography, or another form of artistic expression?",
+        "Exploring art can be a journey of self-discovery! Is there a particular art movement or artist you admire?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "environment",
+      "patterns": [
+        "Environmental issues",
+        "Sustainability tips",
+        "Climate change facts",
+        "Protecting the planet"
+      ],
+      "responses": [
+        "Taking care of the environment is essential for future generations! Are you interested in eco-friendly practices, conservation efforts, or renewable energy solutions?",
+        "Every action counts in protecting our planet! Is there a specific environmental cause you're passionate about?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "relationships",
+      "patterns": [
+        "Relationship advice",
+        "Love ,romance tips",
+        "Friendship advice",
+        "Family relationships"
+      ],
+      "responses": [
+        "Building strong relationships enriches our lives! Are you interested in communication techniques, conflict resolution strategies, or fostering deeper connections?",
+        "Healthy relationships contribute to our happiness and well-being! Is there a specific aspect of relationships you'd like to explore?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "finance",
+      "patterns": [
+        "Financial advice",
+        "Money management tips",
+        "Investment strategies",
+        "Budgeting tips"
+      ],
+      "responses": [
+        "Managing finances is key to financial freedom! Are you interested in budgeting techniques, saving strategies, or investment opportunities?",
+        "Financial literacy is empowering! Is there a specific financial goal or challenge you're facing?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "career",
+      "patterns": [
+        "Career advice",
+        "Job search tips",
+        "Interview preparation",
+        "Professional development"
+      ],
+      "responses": [
+        "Building a fulfilling career is a journey! Are you interested in career exploration, resume writing, networking strategies, or skill development?",
+        "Investing in your career can lead to growth and success! Is there a specific career goal or challenge you'd like to discuss?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "cooking",
+      "patterns": [
+        "Cooking tips",
+        "Recipe recommendations",
+        "Kitchen hacks",
+        "Culinary advice"
+      ],
+      "responses": [
+        "Cooking is a delightful skill to master! Are you interested in specific cuisines, cooking techniques, or recipe ideas?",
+        "Experimenting in the kitchen can lead to delicious discoveries! Is there a particular dish or ingredient you'd like to learn more about?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "fashion",
+      "patterns": [
+        "Fashion trends",
+        "Style advice",
+        "Clothing recommendations",
+        "Fashion tips"
+      ],
+      "responses": [
+        "Fashion is a form of self-expression! Are you interested in current trends, timeless classics, or personal styling tips?",
+        "Expressing your unique style can boost confidence and creativity! Is there a specific fashion dilemma or trend you'd like to explore?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "travel",
+      "patterns": [
+        "Travel destinations",
+        "Vacation planning",
+        "Adventure travel",
+        "Solo travel tips"
+      ],
+      "responses": [
+        "Traveling broadens horizons and creates lasting memories! Are you interested in exotic destinations, cultural experiences, or off-the-beaten-path adventures?",
+        "The world is full of incredible places waiting to be explored! Is there a dream destination or travel goal you're aiming for?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "mindfulness",
+      "patterns": [
+        "Mindfulness techniques",
+        "Stress relief tips",
+        "Meditation practices",
+        "Living present moment"
+      ],
+      "responses": [
+        "Practicing mindfulness can enhance well-being and reduce stress! Are you interested in meditation, breathing exercises, or mindfulness activities?",
+        "Being present in the moment can bring clarity and peace to everyday life! Is there a specific aspect of mindfulness you'd like to explore?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "parenting",
+      "patterns": [
+        "Parenting advice",
+        "Child-rearing tips",
+        "Positive parenting techniques",
+        "Family bonding activities"
+      ],
+      "responses": [
+        "Parenting is a rewarding journey filled with challenges and joys! Are you interested in child development, discipline strategies, or fostering strong family connections?",
+        "Building a loving and supportive family environment is key to raising happy and resilient children! Is there a specific parenting topic or concern you'd like to discuss?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "pets",
+      "patterns": [
+        "Pet care tips",
+        "Choosing the right pet",
+        "Training advice",
+        "Pet health"
+      ],
+      "responses": [
+        "Pets bring joy, companionship, and unconditional love into our lives! Are you interested in caring for dogs, cats, birds, or other animals?",
+        "Providing a loving and nurturing environment is essential for the well-being of our furry friends! Is there a specific pet-related topic or concern you'd like to learn more about?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "home_decor",
+      "patterns": [
+        "Home decor ideas",
+        "Interior design tips",
+        "DIY projects",
+        "Room makeover inspiration"
+      ],
+      "responses": [
+        "Creating a cozy and stylish home enhances comfort and happiness! Are you interested in decorating trends, space-saving solutions, or budget-friendly DIY projects?",
+        "Transforming your living space can be a creative and fulfilling endeavor! Is there a specific room or area of your home you'd like to refresh or redesign?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "fitness",
+      "patterns": [
+        "Fitness tips",
+        "Workout routines",
+        "Healthy lifestyle advice",
+        "Exercise motivation"
+      ],
+      "responses": [
+        "Prioritizing fitness and well-being leads to a healthier and happier life! Are you interested in strength training, cardio workouts, yoga, or other forms of exercise?",
+        "Staying active and nourishing your body with nutritious food are essential components of a balanced and energized lifestyle! Is there a specific fitness goal or challenge you'd like to tackle?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "gardening",
+      "patterns": [
+        "Gardening tips",
+        "Plant care advice",
+        "Vegetable gardening",
+        "Creating a garden oasis"
+      ],
+      "responses": [
+        "Connecting with nature through gardening is therapeutic and rewarding! Are you interested in growing flowers, herbs, vegetables, or creating a sustainable garden ecosystem?",
+        "Embarking on a gardening journey allows you to cultivate beauty, abundance, and tranquility in your outdoor space! Is there a specific gardening topic or project you'd like to explore?"
+      ],
+      "context": [
+        ""
+      ]
+    }
+  ]
+}
